@@ -1,0 +1,31 @@
+
+
+public class Juet
+{
+    String Name;
+    int Age;
+    public void setter(String name){
+        this.Name = name ;
+    }
+    public void setter(int x){
+        this.Age = x ;
+    }
+    public void gettername(){
+       
+        System.out.println(Name);
+    }
+    public void getterage(){
+    
+        System.out.println(Age);
+    }
+    
+	public static void main(String[] args) {
+		Juet myjuet = new Juet();
+		myjuet.setter("himanshu");
+		myjuet.setter(20);
+		
+		myjuet.gettername();
+		myjuet.getterage();
+		
+	}
+}
